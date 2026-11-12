@@ -2,6 +2,8 @@
 
 一个零依赖的静态页面骨架，由 **DSH** 通过 GitHub REST API 直接写入仓库。
 
+🔗 **在线预览**：https://evanwu5-lang.github.io/hello-dsh/
+
 ## 本地运行
 
 不需要任何构建工具，双击 `index.html` 就能看到效果。
