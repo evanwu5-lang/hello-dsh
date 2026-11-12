@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello, GitHub</title>
+    <meta name="description" content="A minimal static site skeleton, created by DSH." />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <main class="card">
+      <p class="eyebrow">Static site skeleton</p>
+      <h1>Hello, GitHub <span class="wave">👋</span></h1>
+      <p class="lede">
+        这个页面由 <strong>DSH</strong> 通过 GitHub REST API 直接写入仓库，没有任何构建步骤：
+        打开 <code>index.html</code> 就能跑。
+      </p>
+
+      <div class="status" id="status" role="status">正在检测运行环境…</div>
+
+      <button id="ping" type="button">点我一下</button>
+
+      <footer>
+        <p id="clock"></p>
+        <p class="muted">
+          想改内容就改 <code>index.html</code>；想换样式就改
+          <code>assets/styles.css</code>。
+        </p>
+      </footer>
+    </main>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
